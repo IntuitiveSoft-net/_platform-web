@@ -20,7 +20,7 @@ $(document).ready(function(){
 	var jsonMeta = $.parseJSON(data);
 	docTitle = jsonMeta.title;
 	$('.header_labtitle').text(docTitle);
-	document.title="Cisco ET&I Labs - " + docTitle;
+	document.title="IPP Labs - " + docTitle;
     });
 
 
